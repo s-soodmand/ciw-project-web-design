@@ -1,0 +1,73 @@
+div.menu{
+	padding:1px;
+}
+
+div.menu ul{
+	list-style-type: none;
+
+}
+
+div.menu li{
+	float: left;
+	padding-top: 25px;
+	position:relative;
+	-webkit-transition:800ms;
+}
+
+div.menu a{
+	padding:6px 18px;
+	display:block;
+	color:#999;
+	text-decoration:none;
+	font-size:14px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform:capitalize;
+	padding-left:3px;
+	white-space: nowrap;
+}
+
+
+
+div.menu a:hover{
+	color:#333;	
+	background-color: transparent;
+}
+
+/* --------------sub menu----------------- */
+
+div.menu li ul{
+	display:none;
+	position:absolute;
+	top:53px;
+	left:-5px;
+	border : 1px solid #CCC;
+	z-index:5;
+	min-width:100%;
+}
+
+
+div.menu li li{
+	float:none;
+	padding:10px 10px;
+	text-align:center;
+	background-color: #FFF;
+}
+
+div.menu li ul a{
+	padding:0px;
+	font-size:12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+}
+div.menu li li:first-child{
+	border-left:none;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+a{
+	-webkit-transition:300ms;
+}
