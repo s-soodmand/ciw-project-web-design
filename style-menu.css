@@ -1,20 +1,20 @@
-div.menu{
+nav.menu{
 	padding:1px;
 }
 
-div.menu ul{
+nav.menu ul{
 	list-style-type: none;
 
 }
 
-div.menu li{
+nav.menu li{
 	float: left;
 	padding-top: 25px;
 	position:relative;
 	-webkit-transition:800ms;
 }
 
-div.menu a{
+nav.menu a{
 	padding:6px 18px;
 	display:block;
 	color:#999;
@@ -28,14 +28,14 @@ div.menu a{
 
 
 
-div.menu a:hover{
+nav.menu a:hover{
 	color:#333;	
 	background-color: transparent;
 }
 
 /* --------------sub menu----------------- */
 
-div.menu li ul{
+nav.menu li ul{
 	display:none;
 	position:absolute;
 	top:53px;
@@ -46,25 +46,25 @@ div.menu li ul{
 }
 
 
-div.menu li li{
+nav.menu li li{
 	float:none;
 	padding:10px 10px;
 	text-align:center;
 	background-color: #FFF;
 }
 
-div.menu li ul a{
+nav.menu li ul a{
 	padding:0px;
 	font-size:12px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 }
-div.menu li li:first-child{
+nav.menu li li:first-child{
 	border-left:none;
 }
 
-div.menu li:hover ul{
+nav.menu li:hover ul{
 	display:block;
 }
 

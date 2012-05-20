@@ -15,36 +15,36 @@
 	overflow:hidden;
 }
 
-div.container{
+.container{
 	width  : 980px;
 	margin : 0 auto;
 }
 
-div.slideshow{
+.slideshow{
 	width    : 680px;
 	overflow : hidden;
 	margin   : 0 auto;
 }
 
-div.slideshow .train{
+.slideshow .train{
 	width    : 2900px;
 	position : relative;
 	-webkit-transition : left 800ms;
 }
 
-div.slideshow .train > div{
+.slideshow .train > div{
 	float : left;
 }
 
-div.slideshow .train > div > img{
+.slideshow .train > div > img{
 	display : block;
 }
 
-div.slideshow ul.btns{
+.slideshow ul.btns{
 	list-style-type : none;
 }
 
-div.slideshow li{
+.slideshow li{
 	width:10px;
 	height:10px;
 	background-color:#AAA;
@@ -54,7 +54,7 @@ div.slideshow li{
 	-webkit-transition : all 600ms;
 }
 
-div.slideshow li:hover{
+.slideshow li:hover{
 	background-color:#000;
 	-webkit-transition : all 200ms;
 }
