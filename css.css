@@ -14,7 +14,7 @@ div.backimage{
 	top      : 0;
 	bottom   : 0;
 	z-index:-1;
-	background-image    : url('images/background.jpg');
+	background-image    : url('images/body.jpg');
 	background-repeat   : no-repeat;
 	background-size     : cover;
 	background-position : center top;
@@ -115,4 +115,75 @@ div.text-baner a:hover {
 	background-color: rgb(255,214,4);
 }
 
+/* ---- dots --------*/
+
+div.dots{
+	background-image: url(images/dots.gif);
+	min-height:12px;
+	background-repeat:repeat-x;
+}
+
+div.khatchin{
+	background-image: url(images/gif.gif);
+	background-repeat:no-repeat;
+	min-height:13px;
+	background-color: #FFF;
+
+}
+
+div.ax {
+	padding-left:10px;
+	font-size:11px;
+	font-weight:bold;
+	font-family:sans-serif;
+	min-height:13px;
+}
+
+/* ---- pannel --------*/
+div.panel{
+	background-color: #FFF;
+	min-height:260px;
+}
+
+div.panel1{
+	background-color: #FFF;
+	min-height:225px;
+	background-image: url(images/panel1.jpg);   
+	background-repeat:no-repeat;
+	display: block;
+	margin: 15px 0 0 15px ;
+}
+
+div.panel2{
+	background-color: #FFF;
+	min-height:225px;
+	background-image: url(images/panel2.jpg);
+	background-repeat:no-repeat;
+	display: block;
+	margin-top: 15px ;
+}
+
+div.panel3{
+	background-color: #FFF;
+	min-height:225px;
+	background-image: url(images/panel3.jpg);
+	background-repeat:no-repeat;
+	display: block;
+	margin: 15px 0 0 -5px ;
+}
+
+div.panel4{
+	background-color: #FFF;
+	min-height:225px;
+	background-image: url(images/panel4.jpg);
+	background-repeat:no-repeat;
+	display: block;
+	margin-top: 15px;
+}
+
+div.dots-panel{
+	min-height:12px;
+	background-image: url(images/dots.gif);
+	background-color: #FFF;
+}
 
