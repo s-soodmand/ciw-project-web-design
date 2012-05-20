@@ -185,5 +185,160 @@ div.dots-panel{
 	min-height:12px;
 	background-image: url(images/dots.gif);
 	background-color: #FFF;
+	background-repeat:repeat-x;
 }
 
+div.white{
+	background-color:#FFF;
+	min-height:10px;
+}
+/* ---------------- text pannel ---------- */
+
+div.panel .text{
+	padding-top:180px;
+	display:block;
+	margin-top:-90px;
+	margin-left:50px;
+	background-color:#000;
+	color:#fff;
+	visibility:hidden;
+	padding-right:14px;
+	background-image:none;
+	
+}
+
+div.panel h1 a{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:30px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#333;
+	font-weight:200;
+	display:inline;
+	text-decoration:none;
+}
+
+div.panel h1 a:hover{
+	background-color:transparent;
+	color:#BBB;
+}
+
+div.panel h6 a{
+	font-size:13px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:10px;
+	color:#777;
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* ----------------- footer ---------------- */
+
+div.footer{
+	background-color: #282828;
+	margin-top: 10px;
+	
+}
+div.khat{
+	min-height:12px;
+	margin-top: 25px;
+}
+
+div.dots{
+	background-image: url(images/dots.gif);
+	min-height:12px;
+	background-repeat:repeat-x;
+}
+
+div.c-white{
+	color: #FFF;
+	background-color: #282828;
+	background-image: url(images/gif.gif);
+	background-repeat:no-repeat;
+}
+div.footer-panel{
+	min-height:280px;
+}
+
+div.footer-panel .standard{
+	min-height:110px;
+	margin-top: 15px;
+}
+
+div.footer-panel .tind{
+	min-height:110px;
+	margin-top: 15px;
+}
+
+div.pic{
+	min-height:40px;
+	margin-top: 6px;
+	width:40px;
+	margin-left:15px;
+	background-image: url(images/pic.jpg);
+
+}
+
+div.matn{
+	min-height:110px;
+	margin-left: 70px;
+	color:#AAA;
+	font-family:serif;
+}
+
+div.matn a{
+	color:#FFF;
+	font-size: 12px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
+div.matn a:hover{
+	background-color:transparent;
+	color: #FAD07D;
+	font-size: 12px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
+div.link-twitter{
+	min-height:20px;
+	margin-top: 40px;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+div.link-twitter a{
+	color:#FFF;
+	font-family:serif;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+div.link-twitter a:hover{
+	color: #000;
+}
+div.footer-menu{
+	margin-top:20px;
+	background-color:transparent;
+}
+
+div.copyright{
+	min-height:35px;
+	color: #555;
+	text-align:left;
+	font-size: 12px;
+	font-family:sans-serif;
+}
+
+div.copyright a{
+	color:#555;
+	text-decoration:none;
+}
+
+div.footermenu{
+	min-height:100px;
+}
